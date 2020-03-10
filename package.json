@@ -1,0 +1,29 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "URL shortener built using Nodejs, Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "devstart": "nodemon server.js",
+    "stop": "nodemon server.stop.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElMassas/URLshortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElMassas/URLshortener/issues"
+  },
+  "homepage": "https://github.com/ElMassas/URLshortener#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
